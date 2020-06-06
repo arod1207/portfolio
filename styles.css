@@ -12,13 +12,17 @@ body {
     background-position: center;
 }
 
-.navbar {
+/* .navbar {
     background-color:#000000;
-}
+} */
 
-a.navbar-item {
+/* div#navbarNav.navbar-menu.is-active {
+    background: black;
+} */
+
+/* a.navbar-item {
     color: white;
-}
+} */
 
 h1.title.is-1.hero {
     text-align: left;
@@ -34,15 +38,18 @@ p.subtitle.is-3.hero {
 }
 
 #about-me {
-    color: black;
+    color: white;
     background: transparent;
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 #projects {
     padding-top: 10%;
-    background-image: url(img/laptopWhite.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(img/laptopWhite.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -50,4 +57,14 @@ p.subtitle.is-3.hero {
 
 #contact-me {
     padding-top: 10%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(img/macPenPaper.jpg);
+    height: 100vh;
 }
+
+.info {
+    text-align: center;
+}
+
