@@ -10,20 +10,8 @@ body {
       ),url(img/computer.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
-
-/* .navbar {
-    background-color:#000000;
-} */
-
-/* div#navbarNav.navbar-menu.is-active {
-    background: black;
-} */
-
-/* a.navbar-item {
-    color: white;
-} */
 
 h1.title.is-1.hero {
     text-align: left;
