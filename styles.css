@@ -1,59 +1,54 @@
-body {
-    font-family: 'Roboto', sans-serif;
-  
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 .indexBG {
-    background-image:     linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),url(img/computer.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/computer.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 h1.title.is-1.hero {
-    text-align: left;
-    color: white;
+  text-align: left;
+  color: white;
 }
 
 p.subtitle.is-3.hero {
-    color: white;
+  color: white;
 }
 
 #mypic {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #about-me {
-    color: white;
-    background: transparent;
-    padding: 15px;
-    text-align: center;
+  color: white;
+  background: transparent;
+  padding: 15px;
+  text-align: center;
 }
 
 #projects {
-    padding-top: 10%;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),url(img/laptopWhite.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
+  padding-top: 10%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/laptopWhite.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
 }
 
 #contact-me {
-    padding-top: 10%;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),url(img/macPenPaper.jpg);
-    height: 100vh;
+  padding-top: 10%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/macPenPaper.jpg);
+  height: 100vh;
 }
 
 .info {
-    text-align: center;
+  text-align: center;
 }
-
