@@ -8,4 +8,8 @@ $(document).ready(function () {
 
   $("#mypic").fadeIn(2000);
   $("#about-me").fadeIn(2000);
+
+  $(".column1").fadeIn(3000);
+  $(".column2").fadeIn(4000);
+  $(".column3").fadeIn(4000);
 });

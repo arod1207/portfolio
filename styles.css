@@ -34,12 +34,24 @@ p.subtitle.is-3.hero {
 }
 
 #projects {
-  padding-top: 10%;
+  /* padding-top: 10%; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(img/laptopWhite.jpg);
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   background-position: center;
+}
+
+#containerProjects {
+  padding: 1%;
+}
+
+.card {
+  opacity: 0.4;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 #contact-me {
