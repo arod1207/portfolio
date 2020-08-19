@@ -68,3 +68,9 @@ p.subtitle.is-3.hero {
 .info {
   text-align: center;
 }
+
+a:hover {
+  color: #7f7f7f;
+  background-color: transparent;
+  text-decoration: underline;
+}
