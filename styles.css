@@ -53,6 +53,7 @@ p.subtitle.is-3.hero {
 
 .card {
   opacity: 0.4;
+  border-radius: 15px;
 }
 
 .card:hover {
